@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+   <form action="#" method="get">
+ 
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required><br><br>
+
+    <label for="edad">Edad</label>
+    <input type="number" name="edad" id="edad" min="1" max="100"><br><br><br>
+
+    <p>Genero:</p>
+
+    <input type="radio" name="genero" id="masc" value="masculino">
+    
+    <label for="masc">Masculino</label><br><br>
+
+    <input type="radio" name="genero" id="fem" value="femenino">
+    <label for="fem">Femenino</label><br><br><br>
+    
+    <label for="pais">País</label><br>
+    <select name="pais" id="pais">
+        <option value="Do">Republica Dominicana</option>
+        <option value="MX">México</option>
+        <option value="ES">España</option>
+   </select><br><br>
+
+
+    <label for="comentario">Comentario</label><br>
+     <textarea 
+        name="comentario" id="comentario" rows="4" cols="40" required></textarea><br><br>
+
+    <button type="submit" value="enviar">Enviar</button>
+
+
+    
+  </form>
+ </body>
+ </html>
